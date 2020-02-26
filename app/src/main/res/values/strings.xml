@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bluff</string>
+    <string name="radio_4">4</string>
+    <string name="radio_3">3</string>
+    <string name="radio_2">2</string>
+    <string name="name">In Game Name</string>
+    <string name="host_button">Host Game</string>
+    <string name="ip_address">IP Address</string>
+    <string name="join_button">Join Game</string>
+    <string name="player_4">Player 4</string>
+    <string name="player_3">Player 3</string>
+    <string name="player_2">Player 2</string>
+    <string name="kya_bolta_h">Play some cards</string>
+    <string name="pass">Pass</string>
+    <string name="check">Check</string>
+    <string name="table_card">table_card</string>
+    <string name="host_ip_string">192.168.43.56</string>
+    <string name="host_ip">Host IP:</string>
+    <string name="no_of_players">No. of Players:</string>
+    <string-array name="choose_cards">
+        <item>Ace</item>
+        <item>Deuce</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Jack</item>
+        <item>Queen</item>
+        <item>King</item>
+    </string-array>
+</resources>

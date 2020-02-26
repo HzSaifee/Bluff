@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.akatsuki.bluff.JoiningActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="530dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="98dp"
+        android:hint="@string/ip_address"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="530dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/name"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="530dp"
+        android:layout_height="wrap_content"
+        android:text="@string/join_button"
+        android:onClick="joinMatch"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+</RelativeLayout>
